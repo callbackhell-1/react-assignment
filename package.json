@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/callbackhell-1/react-assignment/issues"
   },
-  "homepage": "https://github.com/callbackhell-1/react-assignment#readme"
+  "homepage": "https://github.com/callbackhell-1/react-assignment#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
