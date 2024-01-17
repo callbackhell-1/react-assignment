@@ -49,5 +49,12 @@ const Footer = () => {
   );
 };
 
+const Main = () => (
+  <div>
+    <Header2 />,
+    <Footer />
+  </div>
+);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Footer />);
+root.render(<Main />);
