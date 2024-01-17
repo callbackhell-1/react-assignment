@@ -36,5 +36,18 @@ const Header2 = () => {
   );
 };
 
+const Footer = () => {
+  return (
+    <div
+      className="title"
+      style={{ backgroundColor: "pink", border: "5px solid black" }}
+    >
+      <h1 className="head-1">Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+    </div>
+  );
+};
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Header2 />);
+root.render(<Footer />);
