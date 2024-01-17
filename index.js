@@ -16,12 +16,25 @@ const header = React.createElement("div", { class: "title" }, [
  */
 const header1 = (
   <div className="title">
-    {console.log("Hello world")},
-    <h1 className="h-1">Heading 1</h1>
+    {console.log("Hello world")},<h1 className="h-1">Heading 1</h1>
     <h2>Heading 2</h2>
     <h3>Heading 3</h3>
   </div>
 );
 
+/**
+ * Create a functional component of the same with JSX
+ */
+
+const Header2 = () => {
+  return (
+    <div className="title">
+      <h1 className="head-1">Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+    </div>
+  );
+};
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(header1);
+root.render(<Header2 />);
