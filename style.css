@@ -1,10 +1,10 @@
-*{
-    margin:0;
-    padding :0
+* {
+  margin: 0;
+  padding: 0;
 }
-.main-div {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid grey 
+  border: 1px solid grey;
 }

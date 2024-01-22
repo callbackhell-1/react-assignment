@@ -1,6 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+// Header
+const Header = () => {
+  return (
+    <div className="header">
+      <Logo />
+      <SearchBar />
+      <UserIcon />
+    </div>
+  );
+};
+
 // Left
 const Logo = () => {
   return (
@@ -29,13 +40,40 @@ const UserIcon = () => (
   />
 );
 
+// resCard
+const ResCard = () => {
+  return (
+    <div>
+      <h2>KFC</h2>
+      <h2>4.4*</h2>
+      <h2>Burger</h2>
+      <h2>25 Min</h2>
+    </div>
+  );
+};
+
+// resContainer
+const ResContainer = () => {
+  return (
+    <div>
+      <div>
+        <label for="search-txt">Search your Food here :</label>
+        <input type="text" id="search-txt" name="search"></input>
+      </div>
+
+      <div>
+        <ResCard />
+      </div>
+    </div>
+  );
+};
+
 // Main
 const Main = () => {
   return (
     <div className="main-div">
-      <Logo />,
-      <SearchBar />,
-      <UserIcon />
+      <Header />
+      <ResContainer />
     </div>
   );
 };
