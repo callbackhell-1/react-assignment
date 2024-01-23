@@ -43,11 +43,11 @@ const UserIcon = () => (
 // resCard
 const ResCard = () => {
   return (
-    <div>
-      <h2>KFC</h2>
-      <h2>4.4*</h2>
-      <h2>Burger</h2>
-      <h2>25 Min</h2>
+    <div className="res-card">
+      <h4>KFC</h4>
+      <h4>4.4*</h4>
+      <h4>Burger</h4>
+      <h4>25 Min</h4>
     </div>
   );
 };
@@ -61,7 +61,14 @@ const ResContainer = () => {
         <input type="text" id="search-txt" name="search"></input>
       </div>
 
-      <div>
+      <div className="res-container">
+        <ResCard />
+        <ResCard />
+        <ResCard />
+        <ResCard />
+        <ResCard />
+        <ResCard />
+        <ResCard />
         <ResCard />
       </div>
     </div>

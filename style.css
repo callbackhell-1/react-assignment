@@ -8,3 +8,16 @@
   align-items: center;
   border: 1px solid grey;
 }
+.res-card {
+  margin-top: 15px;
+  min-height: 100px;
+  min-width: 100px;
+  border: 1px solid black;
+}
+
+.res-container {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
