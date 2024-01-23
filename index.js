@@ -41,13 +41,16 @@ const UserIcon = () => (
 );
 
 // resCard
-const ResCard = () => {
+const ResCard = (props) => {
+  console.log(props);
+  const { resName, rating, cuisines, deliveryTime } = props;
   return (
     <div className="res-card">
-      <h4>KFC</h4>
-      <h4>4.4*</h4>
-      <h4>Burger</h4>
-      <h4>25 Min</h4>
+    <img className="res-card-img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/gt1qlbsgaklbzlg0olga" />
+      <h4 className="res-card-inner-text">{resName}</h4>
+      <h4 className="res-card-inner-text">{`${rating} *`}</h4>
+      <h4 className="res-card-inner-text">{cuisines}</h4>
+      <h4 className="res-card-inner-text">{`${deliveryTime} mins`}</h4>
     </div>
   );
 };

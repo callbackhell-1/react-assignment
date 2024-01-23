@@ -11,13 +11,22 @@
 .res-card {
   margin-top: 15px;
   min-height: 100px;
-  min-width: 100px;
+  width: 200px;
   border: 1px solid black;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .res-container {
   margin-top: 15px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.res-card-img {
+  width: 90%;
+  padding: 10px;
+}
+
+.res-card-inner-text {
+  text-align: center;
 }
