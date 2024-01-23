@@ -13,11 +13,11 @@
   min-height: 100px;
   min-width: 100px;
   border: 1px solid black;
+  margin-right: 10px;
 }
 
 .res-container {
   margin-top: 15px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }

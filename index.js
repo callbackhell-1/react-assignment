@@ -62,14 +62,18 @@ const ResContainer = () => {
       </div>
 
       <div className="res-container">
-        <ResCard />
-        <ResCard />
-        <ResCard />
-        <ResCard />
-        <ResCard />
-        <ResCard />
-        <ResCard />
-        <ResCard />
+        <ResCard
+          resName="Domino's"
+          rating="4.3"
+          cuisines="Pizza"
+          deliveryTime="30"
+        />
+        <ResCard
+          resName="MCD"
+          rating="3.8"
+          cuisines="Burger"
+          deliveryTime="15"
+        />
       </div>
     </div>
   );
